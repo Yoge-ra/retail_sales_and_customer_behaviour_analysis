@@ -4,7 +4,39 @@ This Jupyter Notebook performs an exploratory data analysis (EDA) on a retail da
 
 ## Dataset
 
-The analysis uses a retail dataset containing information about customer demographics, transactions, and store locations. The dataset can be downloaded from Kaggle: [link to dataset].
+The analysis uses a retail dataset containing information about customer demographics, transactions, and store locations. The dataset can be downloaded from Kaggle: [https://www.kaggle.com/datasets/utkalk/large-retail-data-set-for-eda].
+
+## About Dataset
+### Data Set Description
+This dataset simulates a retail environment with a million rows and 100+ columns, covering customer information, transactional data, product details, promotional information, and customer behavior metrics. It includes data for predicting total sales (regression) and customer churn (classification).
+
+### Detailed Column Descriptions
+#### Customer Information:
+
+   -`customer_id:` Unique identifier for each customer.
+   -`age:` Age of the customer.
+   -`gender:` Gender of the customer (e.g., Male, Female, Other).
+   -`income_bracket:` Income bracket of the customer (e.g., Low, Medium, High).
+   -`loyalty_program:` Whether the customer is part of a loyalty program (Yes/No).
+   -`membership_years:` Number of years the customer has been a member.
+   -`churned:` Whether the customer has churned (Yes/No) - Target for classification.
+   -`marital_status:` Marital status of the customer.
+   -`number_of_children:` Number of children the customer has.
+   -`education_level:` Education level of the customer (e.g., High School, Bachelor's, Master's).
+   -`occupation:` Occupation of the customer.
+
+#### Transactional Data:
+
+   -`transaction_id:` Unique identifier for each transaction.
+`transaction_date:` Date of the transaction.
+`product_id:` Unique identifier for each product.
+`product_category:` Category of the product (e.g., Electronics, Clothing, Groceries).
+`quantity:` Quantity of the product purchased.
+`unit_price:` Price per unit of the product.
+`discount_applied:`` Discount applied on the transaction.
+`payment_method:` Payment method used (e.g., Credit Card, Debit Card, Cash).
+`store_location:` Location of the store where the purchase was made and many ....
+
 
 ## Analysis Steps
 
